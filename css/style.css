@@ -1,0 +1,253 @@
+
+/*
+ * Corrects block display not defined in IE6/7/8/9 & FF3
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    display: block;
+}
+
+html, body, h1, h2, h3, h4, h5, ul
+{
+	margin:0;
+	padding:0;
+}
+
+html { 
+	background: url(../images/stripe.png);
+}
+
+html, body 
+{
+    /*border: 1px solid red;*/
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    width: 100%;
+    height: 100%;
+    /*min-width: 800px;
+    _width: 800px;
+    min-height: 600px;
+    _height: 600px;*/   /* IE6 */
+    /*height: auto !important;*/
+}
+
+
+#wrapper 
+{
+    /*border: 1px solid green;*/
+    /*background-color: yellow;*/
+    /*min-height: 100%;*/
+    /*height: auto !important;*/
+    
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    margin: 0 0 -30px 0;
+}
+
+header,
+section,
+aside
+{
+	border: 6px solid transparent;
+	
+    box-shadow: 0 0 6px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 0 6px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 0 6px rgba(0,0,0,.3);
+	
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding-box;
+	background-clip: padding-box;
+	
+}
+
+header {
+	height: 8%;
+	/*width: 99%;*/
+}
+
+.outer
+{
+    height: 100%;
+    width: 100%;
+	margin-right:20px;
+}
+
+#flexbox {
+    /*height: 650px;*/
+    height: 90%;
+    width: 100%;
+    
+	/* flexbox setup */
+  	display: -webkit-box;
+  	display: -moz-box;
+  	display: box;
+
+  	-webkit-box-orient: horizontal;
+  	-moz-box-orient: horizontal;
+  	box-orient: horizontal;
+}
+
+section,
+aside
+{
+    height: 94%;
+    /*height: inherit;*/
+}
+
+section {
+	-webkit-box-flex: 1;
+    -moz-box-flex: 1;
+     box-flex: 1;
+     
+	/*float:left;*/
+	width: 68%;
+	/*width: 0;*/
+	
+	/*width: 0;*/
+    /*margin-right:-999em;*/
+    
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+
+/*#map_canvas { z-index:10; }*/
+
+aside#left_aside {
+	/*float:left;*/
+	/*margin-left:10px;*/
+    width: 13%;
+    /*width: 200px;*/
+    min-width: 220px;
+    max-width: 220px;
+}
+
+aside#right_aside {
+	/*float:right;*/
+	/*margin-right:10px;*/
+    width: 15%;
+    /*width: 200px;*/
+    min-width: 200px;
+    max-width: 200px;
+    /*margin-left:-999em;*/
+    /*z-index:20;*/
+}
+
+.inner
+{
+    /*height: 500px;*/
+    height: 100%;
+    width: 100%;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+    position: relative;
+}
+
+#flexbox .inner
+{
+    /*height: inherit;*/
+}
+
+footer 
+{
+    /*background-color: rgba(c, c, c);*/
+    background-color: rgba(0, 0, 0, .3);
+    /*border: 1px solid blue;*/
+    clear:both;
+    color: #333;
+    text-align: center;
+    /*font-size: .85em;*/
+    height: 20px;
+    /*margin: 0 0 0 100px;*/
+    line-height: normal;
+    white-space:nowrap;
+    /*position: relative;*/
+
+    
+    border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+   
+    box-shadow: 0 4px 10px rgba(0,0,0,.4);
+    -webkit-box-shadow: 0 4px 10px rgba(0,0,0,.4);
+    -moz-box-shadow: 0 4px 10px rgba(0,0,0,.4);
+    
+}
+
+#accordion h5 {font-size: 0.85em; text-align:left; padding-left:25px;}
+#locations li {text-align:left; font-size:small; line-height: 200%;}
+#locations li:hover { color:#e17042; cursor:pointer}
+a { text-decoration: none; }
+
+#host_service  {position:absolute; bottom:0px;}
+
+/*#map_canvas { height: 100% }*/
+
+/*.minwidth { min-width:100%; width: auto !important; width: 100%; min-height:100%; height:100%; }*/ 
+
+form { padding: 0px; color: #333333; font-family: Verdana, Geneva, sans-serif; font-size: 12px; margin: 0 auto}
+form fieldset { position: relative; background: #e8e8e8;
+            -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;
+            /*background: -webkit-gradient(linear, left top, left bottom, from(#EFEFEF), to(#FFFFFF));*/
+            /*background: -moz-linear-gradient(center top, #EFEFEF, #FFFFFF 100%);*/
+            box-shadow: 3px 3px 10px #666; -moz-box-shadow: 3px 3px 10px #666; -webkit-box-shadow: 3px 3px 10px #666 }
+form fieldset div {padding-top: 25px; padding-bottom: 5px;}          
+form legend { padding: 6px 12px; position: absolute; left: 6px; top: -16px; background-color: #6ca5d1; color: white;
+            -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;
+            box-shadow: 2px 2px 4px #888; -moz-box-shadow: 2px 2px 4px #888; -webkit-box-shadow: 2px 2px 4px #888; text-shadow: 1px 1px 1px #333 }
+            
+form label, form span {display: block; border:0px solid blue;
+            padding-bottom: 0px; padding-right: 0px; text-align: right; height: 20px; line-height: 20px; }
+form label.error {position:absolute; text-align: left; margin-top: -7px; margin-left: -40px; color: #CC0000;
+            padding: 0; width: 230px; font-size: 11px; }
+            
+form input, form textarea, form select { padding: 2px; width: 60px;  border: 1px solid #d9d9d9 }
+
+form .submit, .submit:focus { width: 80px; border: 0; clear:both;
+            background: #6ca5d1; color: white;
+            -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;
+            box-shadow: 2px 2px 4px #888; -moz-box-shadow: 2px 2px 4px #888; -webkit-box-shadow: 2px 2px 4px #888;
+            margin-right: 35px; margin-bottom: 4px; text-shadow: 1px 1px 1px #333 }
+form .submit:hover {background: #8ab8da; color: white; cursor:pointer }
+form .submit:active {background: #3d7ba9; color: white; cursor:default; top:1px; left:1px; position:relative;}
+form .submit:disabled{color:gray;}
+
+form select { width: 208px;}
+form input:focus, textarea:focus, select:focus { background: white; border-color: #666 }
+form input.error { border: 1px solid #CC0000 }
+
+form p { overflow: hidden; margin-top: 0px; margin-bottom: 15px; }
+
+table, th, td {
+	border: 0px solid red;
+}
+
+td {
+	text-align: left;
+	/*line-height: 30px;*/
+}
+
+td:first-child {
+	text-align: right;
+}
+
+/*.ui-widget { font-family: Lucida Grande, Lucida Sans, Arial, sans-serif; font-size: 0.8em; }*/
+
+#ui-datepicker-div { font-size: 12px; }
+
+.ui-widget-overlay {
+    position: fixed;  /* <---------- Fix for jQuery Dialog (avoids appearing of browser's scroll bars) */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<markers>
+	<marker>
+		<name>Toyota Head Office</name>
+		<address>AL SAYER GROUP, KUWAIT FREE TRADE ZONE, Shuwaikh Port (Beside Movinpick Hotel)</address>
+		<lat>29.347915</lat>
+		<lng>47.914617</lng>
+	</marker>
+
+	<marker>
+		<name>Al–Tilal Mall</name>
+		<address>Al Tilal Commercial Complex, Shuwaikh Industrial 1, 80, Kuwait</address>
+		<lat>29.344399</lat>
+		<lng>47.946825</lng>
+	</marker>
+
+	<marker>
+		<name>Toyota Buy &amp; Sell</name>
+		<address>St 11, Salmiya, Kuwait</address>
+		<lat>29.32023</lat>
+		<lng>48.02845</lng>
+	</marker>
+
+	<marker>
+		<name>Al-Rai Toyota, Lexus Showroom</name>
+		<address>Block 4, Al Rai, Al Farwaniyah Governate, Kuwait.</address>
+		<lat>29.312933</lat>
+		<lng>47.929616</lng>
+	</marker>
+
+	<marker>
+		<name>Al-Ahmadi Toyota</name>
+		<address>East Ahmadi, Kuwait.</address>
+		<lat>28.833847</lat>
+		<lng>48.000641</lng>
+	</marker>
+
+</markers>

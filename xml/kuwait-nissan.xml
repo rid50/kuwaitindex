@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<markers>
+	<marker>
+		<name>Nissan Al-Babtain</name>
+		<address>Block 4, Al Rai, Al Farwaniyah Governate, Kuwait.</address>
+		<lat>29.314243</lat>
+		<lng>47.933006</lng>
+	</marker>
+
+	<marker>
+		<name>Nissan Car Rentals</name>
+		<address>Airport Road, Kuwait International Airport, Safat, 13001,
+			Kuwait</address>
+		<lat>29.264837</lat>
+		<lng>47.950344</lng>
+	</marker>
+
+	<marker>
+		<name>Nissan Buy &amp; Sell</name>
+		<address>St 11, Salmiya, Kuwait</address>
+		<lat>29.32023</lat>
+		<lng>48.02845</lng>
+	</marker>
+
+	<marker>
+		<name>Citroen Workshop</name>
+		<address>Auto Repair Shop, Block 4, Kuwait</address>
+		<lat>29.312087</lat>
+		<lng>47.932996</lng>
+	</marker>
+
+</markers>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<markers>
+	<marker>
+		<name>Alexandr</name>
+		<address>Житомир, Zhytomyrs'ka, Ukraine</address>
+		<lat>50.159305</lat>
+		<lng>28.738861</lng>
+	</marker>
+
+	<marker>
+		<name>Igor</name>
+		<address>Frunzenskiy rayon, St Petersburg, Russia</address>
+		<lat>59.851152</lat>
+		<lng>30.401487</lng>
+	</marker>
+
+	<marker>
+		<name>Sergei</name>
+		<address>Проспект Большевиков‎, St Petersburg, Russia</address>
+		<lat>59.918118</lat>
+		<lng>30.467148</lng>
+	</marker>
+
+	<marker>
+		<name>Me</name>
+		<address>Kuwait City, Kuwait</address>
+		<lat>29.313841</lat>
+		<lng>48.044028</lng>
+	</marker>
+
+</markers>
